@@ -3,7 +3,7 @@
         'name' => 'drupal-composer/drupal-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '280346d98458555f8f6c2206904f83d296c2c009',
+        'reference' => 'c01b90c47564cabaed344c73b99f7d4f93200a3b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -271,7 +271,7 @@
         'drupal-composer/drupal-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '280346d98458555f8f6c2206904f83d296c2c009',
+            'reference' => 'c01b90c47564cabaed344c73b99f7d4f93200a3b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -480,6 +480,15 @@
             'replaced' => array(
                 0 => '9.4.6',
             ),
+        ),
+        'drupal/module_missing_message_fixer' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'reference' => '2.0.2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/module_missing_message_fixer',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drush/drush' => array(
             'pretty_version' => '11.1.1',
