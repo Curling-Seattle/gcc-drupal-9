@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5421c3178d97eb55520a19c050d61af7",
+    "content-hash": "a7eddda8fcb46fc8250704f5b6e98299",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1253,53 +1253,6 @@
             "time": "2022-05-31T18:46:25+00:00"
         },
         {
-            "name": "drupal/adaptivetheme",
-            "version": "5.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/adaptivetheme.git",
-                "reference": "8.x-5.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/adaptivetheme-8.x-5.1.zip",
-                "reference": "8.x-5.1",
-                "shasum": "22de075c38bc594ffb94b42ec7ff966a3056297e"
-            },
-            "require": {
-                "drupal/core": "^9.3 || ^10"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-5.1",
-                    "datestamp": "1643902636",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Jeff Burnz",
-                    "homepage": "https://www.drupal.org/user/61393"
-                },
-                {
-                    "name": "mattbloomfield",
-                    "homepage": "https://www.drupal.org/user/3620586"
-                }
-            ],
-            "homepage": "https://www.drupal.org/project/adaptivetheme",
-            "support": {
-                "source": "https://git.drupalcode.org/project/adaptivetheme"
-            }
-        },
-        {
             "name": "drupal/ckeditor",
             "version": "1.0.1",
             "source": {
@@ -1483,56 +1436,6 @@
             "homepage": "https://www.drupal.org/project/ckeditor_templates_ui",
             "support": {
                 "source": "https://git.drupalcode.org/project/ckeditor_templates_ui"
-            }
-        },
-        {
-            "name": "drupal/component",
-            "version": "1.0.0-rc3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/component.git",
-                "reference": "1.0.0-rc3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/component-1.0.0-rc3.zip",
-                "reference": "1.0.0-rc3",
-                "shasum": "fbce913910be7bf7a70ee82cffd1208d6a5d8ac0"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "1.0.0-rc3",
-                    "datestamp": "1611794825",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Ron Northcutt (rlnorthcutt)",
-                    "homepage": "https://www.drupal.org/u/rlnorthcutt",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "rlnorthcutt",
-                    "homepage": "https://www.drupal.org/user/116893"
-                }
-            ],
-            "description": "Easily add JS components to Drupal as blocks, with only a single yml file.",
-            "homepage": "https://drupal.org/project/component",
-            "support": {
-                "source": "https://git.drupalcode.org/project/component",
-                "issues": "https://drupal.org/project/issues/component"
             }
         },
         {
@@ -1837,125 +1740,6 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.4.6"
             },
             "time": "2022-09-20T13:22:39+00:00"
-        },
-        {
-            "name": "drupal/gutenberg",
-            "version": "2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/gutenberg.git",
-                "reference": "8.x-2.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/gutenberg-8.x-2.5.zip",
-                "reference": "8.x-2.5",
-                "shasum": "e44241bd0aaf07216abd314da757fa2b0fa0b2ee"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9",
-                "ext-json": "*",
-                "php": ">=7.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-2.5",
-                    "datestamp": "1650411254",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Fernandes (marcofernandes)",
-                    "homepage": "https://www.drupal.org/u/marcofernandes"
-                },
-                {
-                    "name": "Thor Andre Gretland (thorandre)",
-                    "homepage": "https://www.drupal.org/u/thorandre"
-                },
-                {
-                    "name": "Roberto Ornelas (roborn)",
-                    "homepage": "https://www.drupal.org/u/roborn"
-                },
-                {
-                    "name": "Paweł Pregiel (ppregiel)",
-                    "homepage": "https://www.drupal.org/u/ppregiel"
-                },
-                {
-                    "name": "codebymikey",
-                    "homepage": "https://www.drupal.org/u/codebymikey"
-                },
-                {
-                    "name": "szeidler",
-                    "homepage": "https://www.drupal.org/user/767652"
-                },
-                {
-                    "name": "thorandre",
-                    "homepage": "https://www.drupal.org/user/223878"
-                },
-                {
-                    "name": "truls1502",
-                    "homepage": "https://www.drupal.org/user/325866"
-                }
-            ],
-            "description": "Drupal Gutenberg brings the powerful admin features of Gutenberg Editor to Drupal.",
-            "homepage": "https://www.drupal.org/project/gutenberg",
-            "support": {
-                "source": "https://git.drupalcode.org/project/gutenberg",
-                "issues": "https://www.drupal.org/project/issues/gutenberg"
-            }
-        },
-        {
-            "name": "drupal/tara",
-            "version": "9.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/tara.git",
-                "reference": "9.1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tara-9.1.2.zip",
-                "reference": "9.1.2",
-                "shasum": "4451c70f71c9426e65929394c58f73e2551ace99"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "9.1.2",
-                    "datestamp": "1659955845",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "ravis",
-                    "homepage": "https://www.drupal.org/user/79351"
-                }
-            ],
-            "description": "<p>Tara is a light weight modern Drupal 8, 9 theme by <a href=\"https://www.drupar.com/\" target=\"_blank\">Drupar.com</a></p><p><a href=\"https://www.drupar.com/theme/tara\" target=\"_blank\">Theme Homepage</a> | <a href=\"https://www.drupar.com/tara-theme-documentation\" target=\"_blank\">User Guide</a></p>",
-            "homepage": "https://www.drupal.org/project/tara",
-            "support": {
-                "source": "https://git.drupalcode.org/project/tara"
-            }
         },
         {
             "name": "drush/drush",
@@ -10777,9 +10561,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "drupal/component": 5
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
