@@ -1,0 +1,6 @@
+name: Vite Component
+description: 'Example vite compoenent'
+js:
+  dist/vite-component.js: { minified: true }
+cache:
+  max-age: 0
