@@ -10,10 +10,10 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -37,9 +37,9 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
         '786bf90caabc9e09b6ad4cc5ca8f0e30' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_uploaded_files.legacy.php',
         '751a5a3f463e4be759be31748b61737c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/parse_cookie_header.legacy.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
-        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '2f69d3914119f042cca9e44442d5ce95' => __DIR__ . '/../..' . '/web/core/includes/bootstrap.inc',
         '6db5533840cb1ae1bc049452845aa88e' => __DIR__ . '/../..' . '/web/core/includes/guzzle_php81_shim.php',
+        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
@@ -66,6 +66,10 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
         'V' => 
         array (
             'VariableAnalysis\\' => 17,
+        ),
+        'U' => 
+        array (
+            'Utilities\\' => 10,
         ),
         'T' => 
         array (
@@ -134,13 +138,22 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
             'PhpOption\\' => 10,
             'PHPStan\\PhpDocParser\\' => 21,
         ),
+        'O' => 
+        array (
+            'OpenIDConnectServer\\' => 20,
+        ),
         'M' => 
         array (
             'Masterminds\\' => 12,
         ),
         'L' => 
         array (
+            'League\\Uri\\' => 11,
+            'League\\OAuth2\\Server\\' => 21,
+            'League\\Event\\' => 13,
             'League\\Container\\' => 17,
+            'Lcobucci\\JWT\\' => 13,
+            'Lcobucci\\Clock\\' => 15,
             'Laminas\\Stdlib\\' => 15,
             'Laminas\\Feed\\' => 13,
             'Laminas\\Escaper\\' => 16,
@@ -149,6 +162,7 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
         'J' => 
         array (
             'JsonSchema\\' => 11,
+            'JsonPath\\' => 9,
         ),
         'G' => 
         array (
@@ -180,6 +194,7 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
             'Dflydev\\DotAccessData\\' => 22,
+            'Defuse\\Crypto\\' => 14,
             'DeepCopy\\' => 9,
             'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 55,
         ),
@@ -234,6 +249,10 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
         'VariableAnalysis\\' => 
         array (
             0 => __DIR__ . '/..' . '/sirbrillig/phpcs-variable-analysis/VariableAnalysis',
+        ),
+        'Utilities\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/galbar/jsonpath/src/Galbar/Utilities',
         ),
         'Twig\\' => 
         array (
@@ -456,13 +475,38 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
         array (
             0 => __DIR__ . '/..' . '/phpstan/phpdoc-parser/src',
         ),
+        'OpenIDConnectServer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/steverhoades/oauth2-openid-connect-server/src',
+        ),
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
+        'League\\Uri\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/uri-interfaces/src',
+            1 => __DIR__ . '/..' . '/league/uri/src',
+        ),
+        'League\\OAuth2\\Server\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/oauth2-server/src',
+        ),
+        'League\\Event\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/event/src',
+        ),
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
+        ),
+        'Lcobucci\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
+        ),
+        'Lcobucci\\Clock\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/clock/src',
         ),
         'Laminas\\Stdlib\\' => 
         array (
@@ -483,6 +527,10 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
         'JsonSchema\\' => 
         array (
             0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
+        ),
+        'JsonPath\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/galbar/jsonpath/src/Galbar/JsonPath',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -571,6 +619,10 @@ class ComposerStaticInitcdf77c7bd94be866e01195cd8979379e
         'Dflydev\\DotAccessData\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/dot-access-data/src',
+        ),
+        'Defuse\\Crypto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
         ),
         'DeepCopy\\' => 
         array (

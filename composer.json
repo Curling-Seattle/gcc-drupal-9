@@ -19,8 +19,10 @@
         "php": ">=7.4",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/component": "^1.0@RC",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/next": "^1.3",
         "drush/drush": "^11.0",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"
@@ -82,6 +84,12 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/subrequests": {
+            "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"
+            },
+            "drupal/decoupled_router": {
+                "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2021-05-05/3111456-34.patch"
+            }
         }
     }
 }
