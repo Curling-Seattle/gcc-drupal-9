@@ -3,7 +3,7 @@
         'name' => 'drupal-composer/drupal-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '8609e5a15ba8c70ff9938669d90c383bd20fbfd9',
+        'reference' => 'b04a225eb1066e393a516694f05f64cf18f3fbd5',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -271,7 +271,7 @@
         'drupal-composer/drupal-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '8609e5a15ba8c70ff9938669d90c383bd20fbfd9',
+            'reference' => 'b04a225eb1066e393a516694f05f64cf18f3fbd5',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -312,6 +312,15 @@
             'install_path' => __DIR__ . '/../drupal/coder',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'drupal/component' => array(
+            'pretty_version' => '1.0.0-rc3',
+            'version' => '1.0.0.0-RC3',
+            'reference' => '1.0.0-rc3',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/component',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/core' => array(
             'pretty_version' => '9.4.6',
@@ -498,6 +507,15 @@
             'replaced' => array(
                 0 => '9.4.6',
             ),
+        ),
+        'drupal/gutenberg' => array(
+            'pretty_version' => '2.5.0',
+            'version' => '2.5.0.0',
+            'reference' => '8.x-2.5',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/gutenberg',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drush/drush' => array(
             'pretty_version' => '11.1.1',
