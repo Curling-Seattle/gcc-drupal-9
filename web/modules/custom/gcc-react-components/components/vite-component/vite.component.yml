@@ -1,6 +1,6 @@
 name: Vite Component
 description: 'Example vite compoenent'
 js:
-  dist/vite-component.js: { minified: true }
+  dist/assets/index.a92e27ae.js: { minified: true }
 cache:
   max-age: 0

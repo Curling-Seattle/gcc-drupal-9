@@ -23,6 +23,7 @@
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/module_missing_message_fixer": "^2.0",
+        "drupal/simple_oauth": "^5.2",
         "drush/drush": "^11.1",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"
