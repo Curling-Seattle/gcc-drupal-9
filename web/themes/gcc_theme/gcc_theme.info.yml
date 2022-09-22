@@ -1,0 +1,14 @@
+name: GCC Theme
+type: theme
+description: 'theme for the GCC website'
+base theme: false
+core_version_requirement: ^8 || ^9
+libraries:
+  - gcc_theme/global-styling
+regions:
+  header: 'Header'
+  logo: 'Logo'
+  content: 'Content'
+  footer: 'Footer'
+  sidebar_first: 'Left Sidebar'
+  primary_menu: 'Primary Menu'
